@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>3301</title>
+
+<style>
+body{
+background:black;
+color:#00ff00;
+font-family: monospace;
+text-align:center;
+margin-top:20%;
+}
+
+input{
+background:black;
+border:1px solid #00ff00;
+color:#00ff00;
+padding:10px;
+}
+
+button{
+background:black;
+color:#00ff00;
+border:1px solid #00ff00;
+padding:10px;
+}
+</style>
+
+</head>
+
+<body>
+
+<h1>HELLO</h1>
+<p>pitor es gay??.</p>
+
+<p>Ingresa la clave:</p>
+
+<input id="clave">
+<button onclick="check()">Entrar</button>
+
+<p id="resultado"></p>
+
+<script>
+
+function check(){
+let clave=document.getElementById("clave").value;
+
+if(clave=="chi"){
+document.getElementById("resultado").innerHTML="Bienvenido.";
+}else{
+document.getElementById("resultado").innerHTML="Clave incorrecta.";
+}
+
+}
+
+</script>
+
+</body>
+</html>
